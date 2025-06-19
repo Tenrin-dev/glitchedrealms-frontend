@@ -64,7 +64,7 @@ const App = () => {
 <div className="px-2 md:w-1/2 w-full 2xl:h-[320px] lg:h-[260px] h-auto group" data-aos="fade-right"
 data-aos-easing="ease-in-sine"
 data-aos-duration="1000">
-  <div className="flex flex-wrap justify-center bg-black w-full h-full items-center relative group-hover:border group-hover:rounded-md">
+  <div className="flex flex-wrap justify-center bg-black w-full h-full items-center relative group-hover:border rounded-lg">
     <LazyLoadImage
       effect="blur" 
       alt="gallery" 
@@ -76,7 +76,7 @@ data-aos-duration="1000">
     <div className="text-center px-4 absolute z-10 w-full">
     <div className='justify-start items-center 2xl:h-[300px] lg:h-[220px] h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-  <div>
+  <div className=' hidden md:block'>
     <h1 className=' hidden md:inline text-xl font-extrabold border-b-2 border-blue-400'>SERVER INFO</h1>
     <ul className="list-disc list-inside text-white !leading-[0.2] mt-2 font-bold lg:text-base text-[4px] ">
   <li>Factories</li>
@@ -91,7 +91,7 @@ data-aos-duration="1000">
 
   </div>
 
-<div className=' absolute bottom-0 md:right-0 -right-2 flex flex-col justify-end items-end'>
+<div className=' absolute md:bottom-0 -bottom-[70px] md:right-0 -right-2 flex flex-col justify-end items-end'>
 <div className=' relative'>
 
 <a href='https://shop.glitchbox.net/' target="_blank" className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
@@ -111,7 +111,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
 <div className="px-2 md:w-1/2 w-full 2xl:h-[320px] lg:h-[260px] h-auto group" data-aos="fade-left"
 data-aos-easing="ease-in-sine"
 data-aos-duration="1200">
-  <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative hover:border rounded-md">
+  <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative hover:border rounded-lg">
     <LazyLoadImage
        effect="blur"  height="100%"
 width="100%" alt="gallery" className="object-contain h-full w-full object-center block rounded-lg transition-all"
@@ -119,7 +119,7 @@ wrapperClassName="w-full h-full group-hover:opacity-20" src="https://res.cloudin
     <div className="text-center px-4 absolute z-10 w-full">
     <div className='justify-start items-center 2xl:h-[300px] lg:h-[220px] h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-<div>
+<div className='md:block hidden'>
 <h1 className=' text-xl font-extrabold border-b-2 border-blue-400 hidden md:inline'>SERVER INFO</h1>
 <ul className="list-disc list-inside text-white leading-tight mt-2 font-bold lg:text-base text-[10px] ">
 <li>Profile System</li>
@@ -132,7 +132,7 @@ wrapperClassName="w-full h-full group-hover:opacity-20" src="https://res.cloudin
 <span>...& more</span>
 
 </div>
-<div className=' absolute bottom-2 md:right-0 -right-2 flex flex-col justify-end items-end'>
+<div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
 <a href='https://shop.glitchbox.net' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
 <LazyLoadImage
 effect="blur"  height="auto"
@@ -153,7 +153,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
           <div className="px-2 md:w-1/2 w-full 2xl:h-[320px] lg:h-[260px] h-auto group" data-aos="fade-left"
      data-aos-easing="ease-in-sine"
      data-aos-duration="1200">
-                <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative hover:border rounded-md">
+                <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative hover:border rounded-lg">
                   <LazyLoadImage
                      effect="blur"  height="100%"
       width="100%" alt="gallery" className="object-contain h-full w-full object-center block rounded-lg transition-all"
@@ -161,7 +161,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
                   <div className="text-center px-4 absolute z-10 w-full">
                   <div className='justify-start items-center 2xl:h-[300px] lg:h-[220px] h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-      <div>
+      <div className='md:block hidden'>
         <h1 className=' text-xl font-extrabold border-b-2 border-blue-400 hidden md:inline'>SERVER INFO</h1>
         <ul className="list-disc list-inside text-white leading-tight mt-2 font-bold lg:text-base text-[10px] ">
       <li>Island Upgrades</li>
@@ -174,7 +174,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
       <span>& more</span>
 
       </div>
-      <div className=' absolute bottom-2 md:right-0 -right-2 flex flex-col justify-end items-end'>
+      <div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
         <a href='https://shop.glitchbox.net' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
           <LazyLoadImage
              effect="blur"  height="auto"
@@ -190,7 +190,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
               <div className="px-2 md:w-1/2 w-full 2xl:h-[320px] lg:h-[260px] h-auto group" data-aos="fade-left"
 data-aos-easing="ease-in-sine"
 data-aos-duration="1200">
-  <div className="flex flex-wrap justify-center bg-black w-full h-full items-center relative hover:border rounded-md">
+  <div className="flex flex-wrap justify-center bg-black w-full h-full items-center relative hover:border rounded-lg">
     <LazyLoadImage
        effect="blur"  height="100%"
 width="100%" alt="gallery" className="object-contain h-full w-full object-center block rounded-lg transition-all"
@@ -198,7 +198,7 @@ wrapperClassName="w-full h-full group-hover:opacity-20" src="https://res.cloudin
     <div className="text-center px-4 absolute z-10 w-full">
     <div className='justify-start items-center 2xl:h-[300px] lg:h-[220px] h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-<div>
+<div className='md:block hidden'>
 <h1 className=' text-xl font-extrabold border-b-2 border-blue-400 hidden md:inline'>SERVER INFO</h1>
 <ul className="list-disc list-inside text-white leading-tight mt-2 font-bold lg:text-base text-[10px] ">
 <li>Premium LifestealCore</li>
@@ -212,7 +212,7 @@ wrapperClassName="w-full h-full group-hover:opacity-20" src="https://res.cloudin
 <span>...& more</span>
 
 </div>
-<div className=' absolute bottom-2 md:right-0 -right-2 flex flex-col justify-end items-end'>
+<div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
 <a href='https://shop.glitchbox.net/' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
 <LazyLoadImage
 effect="blur"  height="auto"
@@ -234,7 +234,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
           <div className="px-2 md:w-1/2 w-full 2xl:h-[320px] lg:h-[260px] h-auto group" data-aos="fade-left"
      data-aos-easing="ease-in-sine"
      data-aos-duration="1200">
-                <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative hover:border rounded-md">
+                <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative hover:border rounded-lg">
                   <LazyLoadImage
                      effect="blur"  height="100%"
       width="100%" alt="gallery" className="object-contain h-full w-full object-center block rounded-lg transition-all"
@@ -242,7 +242,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
                   <div className="text-center px-4 absolute z-10 w-full">
                   <div className='justify-start items-center 2xl:h-[300px] lg:h-[220px] h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-      <div>
+      <div className='md:block hidden'>
         <h1 className=' text-xl font-extrabold border-b-2 border-blue-400 hidden md:inline'>SERVER INFO</h1>
         <ul className="list-disc list-inside text-white leading-tight mt-2 font-bold lg:text-base text-[10px] ">
       <li>Elemental Mastery Progression</li>
@@ -256,7 +256,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
       <span>....& more</span>
 
       </div>
-      <div className=' absolute bottom-2 md:right-0 -right-2 flex flex-col justify-end items-end'>
+      <div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
         <a href='https://shop.glitchbox.net' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
           <LazyLoadImage
              effect="blur"  height="auto"
@@ -272,7 +272,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
               <div className="px-2 md:w-1/2 w-full 2xl:h-[324px] lg:h-[264px] h-auto group" data-aos="fade-right"
      data-aos-easing="ease-in-sine"
      data-aos-duration="1000">
-                <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative group-hover:border group-hover:rounded-md">
+                <div className="flex flex-wrap bg-black justify-center w-full h-full items-center relative group-hover:border rounded-lg">
                   <LazyLoadImage
                     effect="blur" 
                     alt="gallery" 
@@ -284,7 +284,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
                   <div className="text-center px-4 absolute z-10 w-full">
                   <div className='justify-start items-center 2xl:h-[300px] lg:h-[220px] h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-                <div>
+                <div className='md:block hidden'>
                   <h1 className=' text-xl font-extrabold border-b-2 border-blue-400 hidden md:inline'>SERVER INFO</h1>
                   <ul className="list-disc list-inside text-white leading-tight mt-2 font-bold lg:text-base text-[8px] ">
                 <li>Pickaxe</li>
@@ -300,7 +300,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
 
                 </div>
 
-      <div className=' absolute bottom-0 md:right-0 -right-2 flex flex-col justify-end items-end'>
+      <div className=' absolute md:bottom-0 -bottom-[70px] md:right-0 -right-2 flex flex-col justify-end items-end'>
       <div className=' relative'>
 
         <a href='https://shop.glitchbox.net/' target="_blank" className=" hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
@@ -345,7 +345,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
                     <p className="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p> */}
                     <div className='md:justify-start md:items-center h-full relative text-left group-hover:flex hidden gap-3 px-2'>
 
-                      <div>
+                      <div className='md:block hidden'>
                         <h1 className=' md:text-xl text-md font-extrabold border-b-2 border-blue-400 hidden md:inline'>SERVER INFO</h1>
                         <ul className="list-disc list-inside text-white leading-tight mt-2 font-bold md:text-base text-[8px] ">
         <li>Multi-Mode SMP</li>
@@ -359,7 +359,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
 
                       </div>
 
-                      <div className=' absolute -md:bottom-10 -bottom-4 md:right-0 -right-2 flex flex-col justify-end items-end'>
+                      <div className=' absolute md:bottom-0 -bottom-[80px] md:right-0 -right-2 flex flex-col justify-end items-end'>
 
                       <div className=' relative'>
 
