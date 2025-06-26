@@ -54,9 +54,9 @@ const Navbar = () => {
         <span>Merch</span>
         <div className="dropdown-content">
           <div className="dropdown-header h-[200px]">
-          <a href='https://excelr8.in/product-category/clothing/collab/gbxe/' target='_blank'>
+          <a className='' href='https://excelr8.in/product-category/clothing/collab/gbxe/' target='_blank'>
 
-            <img src="https://res.cloudinary.com/djxzpihss/image/upload/v1747415445/Websites/Glitched%20Realms/sn3rfmmkqu1eababcd26.webp" alt="Realms" className=" !max-w-full !w-full !h-full object-contain py-2" />
+            <img src="https://res.cloudinary.com/djxzpihss/image/upload/v1747415445/Websites/Glitched%20Realms/sn3rfmmkqu1eababcd26.webp" alt="Realms" className=" !max-w-full !w-full !h-full object-contain py-2 hover:scale-105 transition-all" />
           </a>
           </div>
          

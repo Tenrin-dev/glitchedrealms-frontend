@@ -91,7 +91,7 @@ data-aos-duration="1000">
 
   </div>
 
-<div className=' absolute md:bottom-0 -bottom-[70px] md:right-0 -right-2 flex flex-col justify-end items-end'>
+<div className=' absolute md:bottom-0 md:right-0 left-24 flex flex-col justify-center items-center md:justify-end md:items-end '>
 <div className=' relative'>
 
 <a href='https://shop.glitchbox.net/' target="_blank" className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
@@ -132,7 +132,7 @@ wrapperClassName="w-full h-full group-hover:opacity-20" src="https://res.cloudin
 <span>...& more</span>
 
 </div>
-<div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
+<div className=' absolute md:bottom-2 md:right-0 left-24 flex flex-col justify-center items-center md:justify-end md:items-end '>
 <a href='https://shop.glitchbox.net' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
 <LazyLoadImage
 effect="blur"  height="auto"
@@ -174,7 +174,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
       <span>& more</span>
 
       </div>
-      <div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
+      <div className=' absolute md:bottom-2 md:right-0 left-24 flex flex-col justify-center items-center md:justify-end md:items-end '>
         <a href='https://shop.glitchbox.net' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
           <LazyLoadImage
              effect="blur"  height="auto"
@@ -212,7 +212,7 @@ wrapperClassName="w-full h-full group-hover:opacity-20" src="https://res.cloudin
 <span>...& more</span>
 
 </div>
-<div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
+<div className=' absolute md:bottom-2 md:right-0 left-24 flex flex-col justify-center items-center md:justify-end md:items-end '>
 <a href='https://shop.glitchbox.net/' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
 <LazyLoadImage
 effect="blur"  height="auto"
@@ -256,7 +256,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
       <span>....& more</span>
 
       </div>
-      <div className=' absolute md:bottom-2 -bottom-[64px] md:right-0 -right-2 flex flex-col justify-end items-end'>
+      <div className=' absolute md:bottom-2 md:right-0 left-24 flex flex-col justify-center items-center md:justify-end md:items-end  '>
         <a href='https://shop.glitchbox.net' target='_blank' className="hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
           <LazyLoadImage
              effect="blur"  height="auto"
@@ -300,7 +300,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
 
                 </div>
 
-      <div className=' absolute md:bottom-0 -bottom-[70px] md:right-0 -right-2 flex flex-col justify-end items-end'>
+      <div className=' absolute md:bottom-0 md:right-0 left-24 flex flex-col justify-center items-center md:justify-end md:items-end '>
       <div className=' relative'>
 
         <a href='https://shop.glitchbox.net/' target="_blank" className=" hover:scale-105 transition-all mt-3 text-indigo-500 inline-flex" >
@@ -322,7 +322,7 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
 
             </div>
             
-            <div className="flex md:h-[310px] hover:md:h-[310px] h-auto flex-wrap w-full mb-4 group rounded-lg transition-all justify-center items-center md:py-2 relative md:hover:border-0 hover:border" data-aos="fade-up"
+            <div className="flex md:h-[310px] hover:md:h-[310px] h-auto flex-wrap w-full mb-4 group rounded-lg transition-all justify-center items-center md:py-2 relative md:hover:border-0" data-aos="fade-up"
      data-aos-easing="ease-in"
      data-aos-offset="100"
      data-aos-duration="1000">
@@ -331,9 +331,9 @@ width="100%" src='https://res.cloudinary.com/dsbups4jj/image/upload/v1740156130/
               <LazyLoadImage
                  effect="blur" height="100%"
       width="100%" alt="gallery" className="md:block !w-full rounded-lg !h-full object-center !transition-all " 
-      wrapperClassName="hidden w-full h-full hover:transition-all group-hover:opacity-30 delay-200" src="https://res.cloudinary.com/dsbups4jj/image/upload/v1750251295/tile_multi_modes_copy_dvohra.webp" />
+      wrapperClassName="hidden w-full h-full hover:transition-all group-hover:opacity-30 delay-200" src="https://res.cloudinary.com/djxzpihss/image/upload/v1750427958/dddd_dczj3x_kcvcsm.webp" />
      </div>
-     <div className='relative h-full w-full bg-black md:hidden block'>
+     <div className='relative h-full w-full bg-black md:hidden block rounded-lg hover:border'>
 
               <LazyLoadImage
                  effect="blur"  height="100%"
